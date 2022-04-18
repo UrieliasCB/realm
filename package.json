@@ -1,0 +1,22 @@
+{
+	"name": "mongo-creation",
+	"version": "1.0.0",
+	"description": "",
+	"main": "bin/index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"bin": {
+		"createrealm": "./bin/index.js",
+		"editrealm": "./bin/edit.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.20.0",
+		"mongodb": "^4.5.0",
+		"nodemon": "^2.0.15",
+		"yargs": "^17.4.1"
+	}
+}
